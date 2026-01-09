@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 80px auto;
+    width: 50%;
+}
+#heading {
+    text-align: center;
+    display: block;
+    font-family: "Noto Serif";
+}
+#heading > h1 {
+    font-size: 50px;
+    letter-spacing: 3.5px;
+    font-family: "Roboto";
+}
+#heading > h3 {
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: #3289cc;
+}
+hr {
+    margin-bottom: 50px;
+}
+#how, #statement{
+    font-size: 20px;
+}
+#how > p {
+    font-style: italic;
+}
+li {
+    margin-top: 22px;
+}
+img {
+    width: 200px;
+}
+footer {
+    text-align: center;
+    margin: 70px;
+}
