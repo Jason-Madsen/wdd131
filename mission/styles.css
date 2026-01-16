@@ -4,6 +4,13 @@
 body {
     margin: 80px auto;
     width: 39%;
+    border: 2px black solid;
+    padding: 120px;
+}
+body > select {
+    position: absolute;
+    top: 40px;
+    left: 200px;
 }
 #heading {
     text-align: center;
@@ -39,4 +46,7 @@ img {
 footer {
     text-align: center;
     margin: 70px;
+}
+.darkmode {
+    color: white;
 }
