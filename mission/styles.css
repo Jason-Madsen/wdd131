@@ -6,6 +6,7 @@ body {
     width: 39%;
     border: 2px black solid;
     padding: 120px;
+    padding-bottom: 100px;
 }
 body > select {
     position: absolute;
@@ -45,7 +46,7 @@ img {
 }
 footer {
     text-align: center;
-    margin: 70px;
+    margin-top: 70px;
 }
 .darkmode {
     color: white;
