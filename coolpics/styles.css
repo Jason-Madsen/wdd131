@@ -31,13 +31,13 @@ h1 {
 
 section {
     padding-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 #image-grid {
     display: grid;
-    margin: auto;
     justify-content: center;
-    max-width: 1000px;
+    row-gap: 25px;
+    justify-items: center;
 }
 nav a {
     padding: 20px;
@@ -54,15 +54,14 @@ nav a:hover {
     background-color: transparent;
     color: white;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 img {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border: white 3px solid;
+    border: white 4px solid;
     box-shadow: 0px 0px 10px;
-    margin: 15px;
 }
 footer {
     text-align: center;
@@ -76,16 +75,14 @@ footer {
 @media screen and (min-width: 745px) {
     #image-grid {
         grid-template-columns: 330px 330px;
-        row-gap: 20px;
-        column-gap: 70px;
+        gap: 60px 70px;
     }
 }    
 
 @media screen and (min-width: 1115px) {
     #image-grid {
         grid-template-columns: 330px 330px 330px;
-        row-gap: 20px;
-        column-gap: 40px;
+        gap: 60px 60px;
     }
     
     .menu-btn {
