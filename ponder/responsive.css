@@ -16,8 +16,8 @@ footer {
   background-color: lightblue;
 }
  main {
-        display: grid;
-        grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
  }
 h1 {
     text-align: center;
