@@ -102,7 +102,7 @@ dialog {
         width: 65%;
         height: 65%;
 }    
-
+}
 @media screen and (min-width: 1115px) {
     #image-grid {
         grid-template-columns: 330px 330px 330px;
