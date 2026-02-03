@@ -6,7 +6,7 @@
     <meta name="author" content="Jason Madsen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids Read For Fun Blog</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,25 +20,25 @@
             </ul>
         </nav>
     </header>
-    <main id="main-content" role="main">
+    <main id="main-content">
     <section id="book-list" aria-label="Book Listings">
         <article class="book">
-            <section class="book-details">
-                <p id="date" aria-label="release date">July 5, 2022</p>
-                <p aria-label="ages 10-14">10-14</p>
-                <p aria-label="genre">Fantasy</p>
-                <p aria-label="4 out of 5 stars" role="img">⭐⭐⭐⭐</p>
-            </section>
-            <section class="book-description">
-                <h2><strong>Septimus Heap Book One: Magyk</strong></h2>
+            <div class="book-details">
+                <p id="date">July 5, 2022</p>
+                <p>10-14</p>
+                <p>Fantasy</p>
+                <p><span aria-label="4 out of 5 stars" role="img">⭐⭐⭐⭐</span></p>
+            </div>
+            <div class="book-description">
+                <h2>Septimus Heap Book One: Magyk</h2>
                 <img src="images/Blog_image.jpg" alt="Magyc book cover with Dragon ring and stars">
                 <p>If you enjoy stories about seventh sons of seventh sons and magyk this is the book for you.</p>
-            </section>
+            </div>
         </article>
     </section>
+    </main>
     <footer>
         <p>Jane Doe</p>
     </footer>
-    </main>
 </body>
 </html>
