@@ -12,34 +12,34 @@
 </head>
 <body>
     <main>
-        <section class="errors"></section>
+        <div class="errors"></div>
         <form id="card-form" action="#" method="get">
-            <section id="cardFront" class="card-style">
-                <section id="total">
+            <div id="cardFront" class="card-style">
+                <div id="total">
                     <p>TOTAL: $199</p>
                     <div id="creditCardSymbol">💳</div>
-                </section>
+                </div>
                 <div id="cardNumber">
-                    <label for="cardNumber">CARD NUMBER</label>
+                    <label for="cardNumberInput">CARD NUMBER</label>
                     <input type="text" id="cardNumberInput" name="cardNumber" pattern="[0-9]{16}" placeholder="1234 5678 9101 1020" required>
                 </div>
                 <div id="cardHolder">
-                    <label for="cardHolder">CARD HOLDER</label>
-                    <input type="text" name="cardHolder" id="cardHolder" placeholder="John Doe" required>
+                    <label for="cardHolderInput">CARD HOLDER</label>
+                    <input type="text" name="cardHolder" id="cardHolderInput" placeholder="John Doe" required>
                 </div>
                 <div id="cardExpiration">
                     <label for="expirationDate">EXPIRATION</label>
                     <input type='text' id='month' name="expMonth" placeholder="MM" aria-labelledby="expirationDate" required>
                     <input type='text' id='year' name="expYear" placeholder="YY" aria-labelledby="expirationDate" required>
                 </div>
-            </section>
-            <section id="cardBack" class="card-style">
+            </div>
+            <div id="cardBack" class="card-style">
                 <div class="blackBar"></div>
                 <div id="cvc-ccv-container">
                     <label for="cvc-ccv">CVC/CVV</label>
                     <input type="text" name="cvc-ccv" id="cvc-ccv" placeholder="xxx" required>
                 </div>
-            </section>
+            </div>
             <button type="submit">Submit</button>
         </form>
     </main>
