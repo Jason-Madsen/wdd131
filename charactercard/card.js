@@ -3,7 +3,7 @@ const aCard = {
     image: 'images/cardimage.png',
 
     stats: [
-        {class: 'Swamp Beast Diplomat', level: 8, health: 100,}
+        {class: 'Swamp Beast Diplomat', level: 5, health: 100,}
     ],
 
     attacked() {
