@@ -41,7 +41,7 @@ document.getElementById('levelUpButton').addEventListener('click', () => {
 
 
 function statsTemplate(stat) {
-    return `<div class="stats">
+    return `<div>
                 <p><strong>Class: </strong> <span id="cardClass">${stat.class}</span></p>
                 <p><strong>Level: </strong> <span id="cardLevel">${stat.level}</span></p>
                 <p><strong>Health: </strong> <span id="cardHealth">${stat.health}</span></p>
