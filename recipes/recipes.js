@@ -331,9 +331,11 @@ function starsTemplate(rating) {
     for (let i = 1; i <= 5; i++) {
       if (i <= rating) {
         html += `<span aria-hidden="true" class="icon-star"> ⭐</span>`
+      } else if (i === Math.ceil(rating) && rating % 1 !== 0) {
+        html += `<span aria-hidden="true" class="icon-star-half">⯪</span>`;
       } else {
         html += `<span aria-hidden="true" class="icon-star-empty">☆</span>`
-      }			
+      }
     }
     html += `</span>`
     return html
