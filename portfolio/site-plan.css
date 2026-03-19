@@ -8,3 +8,19 @@
     font-family: "IBM Plex Mono";
     color: #9C9C9C;
 }
+
+.primary {
+    color: #080808;
+}
+
+.secondary {
+    color: #ffffff;
+}
+
+.accent1 {
+    color: #3f8e00;
+}
+
+.accent2 {
+    color: #62ba1b;
+}
