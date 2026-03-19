@@ -1,0 +1,223 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<title>Site Plan</title>
+		<link type="text/css" rel="stylesheet" href="site-plan.css" />
+	</head>
+
+	<body>
+		<header>
+			<h1>Jason Madsen Portfolio Site Plan</h1>
+			<h2>Jason Madsen</h2>
+			<h2>WDD 131-A2</h2>
+			<!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 131.03 -->
+		</header>
+		<main>
+			<!-- ------------------------Steps 2-3------------------------------ -->
+			<hr />
+			<h2>Overview</h2>
+			<h3>Purpose</h3>
+			<p>I want to create a good portfolio website to introduce myself and my major as well as current projects I am working on. I want it to be a good representation of myself and my abilities presented in a </p>
+			<!-- change this -->
+
+			<h3>Audience</h3>
+			<p>Future employers and colleagues in my desired professional field</p>
+			<!-- change this -->
+
+			<h3>Dynamic elements</h3>
+			<p>I will be using an object array to display my different projects with event listeners to diplay the correct ones that have been requested. I will also be using a form with specific parameters for email and a phone number to ensure they are correct. I also want to have a rolling series of quotes taht changes each time the page reloads or the user can click through them.</p>
+			<!-- change this -->
+
+			<hr />
+			<h2>Branding</h2>
+			<h3>Website Logo</h3>
+			
+			<img src="images/Screenshot 2026-03-18 204902.png" alt="Logo image" />
+			<hr />
+			<h2>Style Guide</h2>
+
+			<!-- ------------------------Steps 4-8------------------------------ -->
+
+			<h3>Color Palette</h3>
+			<!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in iLearn then return and replace the color codes below with the hex color codes (the 6 digit numbers that show at the bottom of each color) for the colors you have chosen below.  You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
+
+			<!-- Copy and paste the URL to your finished palette below Make sure to paste it into both spots -->
+			Palette URL:
+			<a
+				href="https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c"
+				target="_blank"
+				>https://coolors.co/1b1b1b-080808-3f8e00-62ba1b-ffffff</a
+			>
+
+			<table class="colors">
+				<tbody>
+					<tr>
+						<th>Primary</th>
+						<th>Secondary</th>
+						<th>Accent 1</th>
+						<th>Accent 2</th>
+					</tr>
+					<!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
+					<tr>
+						<td class="primary">[#080808]</td>
+						<td class="secondary">[#ffffff]</td>
+						<td class="accent1">[#3f8e00]</td>
+						<td class="accent2">#62ba1b</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!-- ------------------------Step 9------------------------------ -->
+
+			<h3>Typography</h3>
+			<!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Why did you choose what you did?  Make sure to review the list of web safe fonts at W3Schools.org as a starting point.  Think also about which of your colors above you might use for background and font colors. -->
+
+			<h4>
+				Heading Font: Raleway
+				<!-- change this -->
+			</h4>
+			<h4>
+				Paragraph Font: IBM Plex Mono
+				<!-- change this -->
+			</h4>
+			<h3>Normal paragraph example</h3>
+			<p id="ibm">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+				commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+				velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+				occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+				mollit anim id est laborum.
+			</p>
+			<h3>Colored paragraph example</h3>
+			<p class="colored">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+				commodo consequat.
+			</p>
+
+			<!-- ------------------------Step 10------------------------------ -->
+
+			<h3>Navigation</h3>
+			<!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. -->
+			<nav>
+				<a href="#">Home</a>
+				<a href="#">Projects</a>
+				<a href="#">Contact</a>
+			</nav>
+			<hr />
+
+			<h2>Content</h2>
+			<h3>Home page</h3>
+			<p>Cyber Portfolio
+Home
+Projects
+Contact
+Jason Madsen
+Major: Cybersecurity
+GPA: 4.0
+Introduction: Cybersecurity major at BYU - Idaho seeking new roles and connections
+Projects
+Standard Operating Procedures
+"Cybersecurity is everyone's job, not just IT's." 
+— Theresa Payton
+Recent Work
+IT and Cyber related projects
+PowerShell Password Manager
+Network Ad-Blocker
+Personal password manager using PowerShell functions and scripting
+Network level ad-blocker configured on home server
+Project Description
+Project Description
+Contact
+Email
+Please enter your email
+Mobile
+Enter mobile
+Message
+Enter your message
+Submit</p>
+			<h3>Projects</h3>
+			<p>Cyber Portfolio
+Home
+Projects
+Contact
+Projects
+All
+Networking
+PowerShell
+Python
+Certifications
+PowerShell Password Manager
+Description
+Successfully engineered a secure password management tool by combining custom PowerShell logic with AI-assisted troubleshooting to bridge technical gaps and implement advanced encryption standards. This collaboration allowed me to refine the script’s security architecture and overcome complex system hurdles that pushed beyond my initial technical scope.
+Languages and Utilities Used:
+Environments Used:
+PowerShell
+Visual Studio Code
+Windows 11 Pro
+
+Program walk-through:
+
+VSCode Script :
+To ensure industry-standard protection, this vault implements a "Security Trinity" that handles data with zero-knowledge principles:
+SecureString: Prevents sensitive data from being stored in plain text within the system memory (RAM), protecting against memory-scraping attacks.
+PBKDF2 Key Stretching: Utilizes 100,000 iterations to transform the master password into a high-entropy encryption key, making brute-force attacks computationally unfeasible.
+SHA-256 Hashing: Employs the modern SHA-256 cryptographic engine as the mixing algorithm for key derivation, ensuring the vault meets current global security standards.
+
+
+PowerShell Manager View :
+
+            <img src="images/Script1.png" alt="">
+            <img src="images/Script2.png" alt="">
+            <img src="images/Script3.png" alt="">
+            <img src="images/PowershellManagerView.png" alt="">
+
+Network Level Ad Blocker
+Description
+Successfully transformed an HP Envy dv7 laptop into a dedicated Pi-hole DNS server running on Zorin OS. By configuring a static IP and integrating the server with an Arris G18 Gateway, I implemented a network-wide "sinkhole" that filters advertising and tracking telemetry for all connected devices, significantly improving network privacy and speed.
+Languages and Utilities Used:
+Environments Used:
+Static IP Reservation
+WAN DNS Configuration
+Bash Terminal
+Linux Zorin OS Lite
+
+Program walk-through:
+Pi-Hole Install / Status / IP Verification :
+Static IP Configuration :
+WAN DNS Configuration :
+Pi-Hole Ad-Blocker Dashboard :</p>
+            <img src="images/BashTerminal.png" alt="">
+            <img src="images/DNS Server Configuration.png" alt="">
+            <img src="images/Pi-Hole Dashboard.png" alt="">
+            <img src="images/Pi-HoleInstall.png" alt="">
+            <img src="images/Static IP Configuration.png" alt="">
+			<h2>Wireframes</h2>
+			<p>
+				Create two wireframes for your site. One for each page and list them
+				here
+			</p>
+
+			<h3>Home</h3>
+			<p>
+				[Any additional details about home that the wireframe does not make
+				clear]
+			</p>
+			<img src="images/Homewire.png" alt="home page wireframe" />
+
+			<h3>[Page 2]</h3>
+			<p>
+				[Any additional details about page 2 that the wireframe does not make
+				clear]
+			</p>
+			<img src="images/Projects1.png" alt="page 2 wireframe" />
+			<img src="images/Projects2.png" alt="page 2 wireframe" />
+		</main>
+	</body>
+</html>
