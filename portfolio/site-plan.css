@@ -5,7 +5,7 @@
 }
 
 .colored {
-    font-family: "IBM Plex Mono";
+    font-family: "Raleway";
     color: #9C9C9C;
 }
 
@@ -23,4 +23,8 @@
 
 .accent2 {
     color: #62ba1b;
+}
+
+#rale {
+    font-family: Raleway;
 }
