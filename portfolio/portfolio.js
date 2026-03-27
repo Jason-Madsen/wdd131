@@ -165,6 +165,9 @@ function quotesTemplate(quote) {
 
 function renderQuote(quote) {
     const quoteContainer = document.querySelector('.sop-box')
+    
+    if (!quoteContainer) return;
+    
     let html = quotesTemplate(quote);
     quoteContainer.innerHTML = html;
     
