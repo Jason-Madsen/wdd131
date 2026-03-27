@@ -52,8 +52,6 @@ a {
 
 }
 
-#home {
-}
 
 .hero-content {
     display: flex;
@@ -109,17 +107,20 @@ h1 {
     width: 100%;
     height: 200px;
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 .sop-box {
     width: 80%;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     border: #1B1B1B solid 2px;
     margin: auto;
     color: #ffffff;
-    font-family: "IBM Plex Mono";
+    font-family: "Raleway";
     font-size: 13px;
 
 }
@@ -128,7 +129,7 @@ h1 {
     margin: auto;
     font-size: 18px;
     color: #080808;
-    font-family: "Raleway";
+    font-family: "IBM Plex Mono";
 }
 
 cite {
@@ -143,13 +144,13 @@ cite {
 }
 
 #projects h2 {
-    font-family: "Raleway";
+    font-family: "IBM Plex Mono";
     margin-bottom: 0;
 }
 
 .subtitle {
     color: #9c9c9c;
-    font-family: "IBM Plex Mono";
+    font-family: "Raleway";
     font-size: 13px;
 }
 
@@ -163,8 +164,6 @@ cite {
     flex-direction: column;
     text-align: left;
     padding: 15px;
-    font-family: "IBM Plex Mono";
-    color: #9c9c9c;
     margin-bottom: 40px;
 
 }
@@ -177,8 +176,14 @@ cite {
 .project-card h3 {
     margin-top: 5px;
     margin-bottom: 8px;
-    font-family: "Raleway";
+    font-family: "IBM Plex Mono";
     color: #080808;
+}
+
+.project-card p {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: #9c9c9c;
 }
 
 .btn-secondary {
@@ -193,6 +198,7 @@ cite {
     font-size: 12px;
     border: 1px solid #62ba1b;
     box-shadow: 0 0 5px #62ba1b;
+    font-family: "IBM Plex Mono";
 }
 
 #contact {
@@ -203,7 +209,7 @@ cite {
 #contact h2 {
     color: #ffffff;
     text-align: center;
-    font-family: "Raleway";
+    font-family: "IBM Plex Mono";
 }
 
 form {
@@ -219,7 +225,7 @@ form {
 label {
     color: #ffffff;
     text-align: left;
-    font-family: "IBM Plex Mono";
+    font-family: "Raleway";
     font-size: 14px;
     margin-bottom: 3px;
     width: 80%;
@@ -235,7 +241,7 @@ input {
 
 input::placeholder {
     color: #757575;
-    font-family: "IBM Plex Mono";
+    font-family: "Raleway";
     font-size: 12px;
 }
 
@@ -248,7 +254,7 @@ textarea {
 
 textarea::placeholder {
     color: #757575;
-    font-family: "IBM Plex Mono";
+    font-family: "Raleway";
     font-size: 12px;
 }
 
@@ -287,7 +293,7 @@ footer {
     color: #ffffff;
     background-color: #080808;
     text-align: center;
-    font-family: "Raleway";
+    font-family: "IBM Plex Mono";
     padding-bottom: 60px;
     box-shadow: 0px 1px 10px #080808;
 }
@@ -345,7 +351,7 @@ footer {
 
 .project-head h2 {
     font-size: 20px;
-    font-family: "Raleway";
+    font-family: "IBM Plex Mono";
 }
 
 .project-head h3 {
@@ -354,13 +360,13 @@ footer {
 }
 
 .project-head p {
-    font-size: 14px;
+    font-size: 16px;
     padding: 12px;
     background-color: #3f8e00;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 13px;
-    font-family: "IBM Plex Mono";
+    font-family: "Raleway";
     width: 80%;
     max-width: 800px;
 }
@@ -382,7 +388,7 @@ footer {
 }
 
 .projects-lus ul li {
-    font-family: "IBM Plex Mono";
+    font-family: "Raleway";
     text-align: left;
 }
 
@@ -401,7 +407,7 @@ footer {
     text-decoration: underline;
 }
 .projects-envs li {
-    font-family: "IBM Plex Mono";
+    font-family: "Raleway";
     text-align: left;
 }
 
@@ -413,14 +419,17 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-family: "IBM Plex Mono";
+    font-family: "Raleway";
     width: 80%;
     max-width: 800px;
 }
 
 .walkthrough h3 {
     text-decoration: underline;
+    font-family: "IBM Plex Mono";
 }
+
+
 
 .image-gallery {
     display: flex;
@@ -483,6 +492,8 @@ a {
 
 #home {
     display: flex;
+    max-width: 1200px;
+    margin: auto;
 }
 .hero-content {
     max-width: 40%;
@@ -549,22 +560,28 @@ h1 {
     box-sizing: border-box;
     text-align: left;
     padding: 15px;
-    font-family: "IBM Plex Mono";
     color: #9c9c9c;
     margin-bottom: 40px;
 
 }
 
+.project-card p {
+    font-size: 20px;
+}
+
 .project-card img {
     width: 90%;
-    align-self: center;
+    aspect-ratio: 16 / 9;   
+    display: block;
 }
 
 .project-card h3 {
     margin-top: 5px;
     margin-bottom: 8px;
-    font-family: "Raleway";
+    font-family: "IBM Plex Mono";
     color: #080808;
+    font-size: 22px;
+    min-height: 2.5em;
 }
 
 .btn-secondary {
@@ -572,6 +589,7 @@ h1 {
     font-size: 14px;
     margin-top: auto;
     margin-bottom: 20px;
+    font-family: "IBM Plex Mono";
 }
 
 
