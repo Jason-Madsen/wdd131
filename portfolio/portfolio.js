@@ -185,7 +185,7 @@ function homeProjectTemplate(project) {
             <h3>${project.title}</h3>
             <img src="${firstImage}" alt="${project.title}">
             <p>${displayDesc}</p>
-            <a href="projects.html" class="btn-secondary">Project Description ></a>
+            <a href="projects.html" target=blank_ class="btn-secondary">Project Description ></a>
         </article>`;
 }
 
