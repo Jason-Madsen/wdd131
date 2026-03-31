@@ -323,7 +323,7 @@ footer {
 }
 
 .filter-btn.active {
-    background-color: #3f8e00;
+    background-color: #357700;
     color: #ffffff;
 }
 
@@ -362,7 +362,7 @@ footer {
 .project-head p {
     font-size: 16px;
     padding: 12px;
-    background-color: #3f8e00;
+    background-color: #357700;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 13px;
