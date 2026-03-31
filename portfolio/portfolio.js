@@ -95,7 +95,7 @@ function projectTemplate(project) {
     const imageGallery = project.images?.length > 0 
         ? project.images.map(img => `
             <div class="image-gallery">
-                <h5>${img.caption}</h5>
+                <h4>${img.caption}</h4>
                 <picture>
                     <source media="(min-width: 660px)" srcset="${img.url}">
                     <img src="${img.urlSmall}" 
