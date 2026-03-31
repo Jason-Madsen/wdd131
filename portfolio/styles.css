@@ -17,6 +17,7 @@ nav {
     border-bottom-right-radius: 15px;
     justify-content: space-between;
     max-width: 1200px;
+    flex-wrap: wrap;
 
 }
 
@@ -38,8 +39,7 @@ nav {
     gap: 13px;
     font-family: "IBM Plex Mono";
     padding: 10px;
-    margin-left: 45px;
-    margin-right:20px;
+    flex-wrap: wrap;
 
 }
 
@@ -60,7 +60,8 @@ a {
 }
 
 h1 {
-    padding-left: 15px;
+    padding-left: 1.8rem;
+    word-break: break-word;
     margin-bottom: 0;
     font-family: "IBM Plex Mono";
 }
@@ -90,8 +91,10 @@ h1 {
 }
 
 .hero-image img {
-    width: 300px;
-    height: 300px;
+    width: 60%;    
+    max-width: 300px;   
+    min-width: 80px; 
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     display: flex;
     justify-self: center;
@@ -466,6 +469,9 @@ footer {
     color: #62ba1b;
 }
 
+h2, h3, p, li {
+    word-break: break-word;
+}
 @media screen and (min-width: 660px) {
 
     nav {
