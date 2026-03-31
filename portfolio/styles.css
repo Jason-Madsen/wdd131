@@ -76,7 +76,7 @@ h1 {
 
 .btn-primary {
     color: #ffffff;
-    background-color: #3f8e00;
+    background-color: #357700;
     width: 80px;
     padding-left: 15px;
     padding-right: 15px;
@@ -104,9 +104,9 @@ h1 {
 }
 
 .sop-banner {
-    background-color: #3f8e00;
+    background-color: #357700;
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -190,7 +190,7 @@ cite {
 .btn-secondary {
     align-self: flex-end;
     color: #ffffff;
-    background-color: #3f8e00;
+    background-color: #357700;
     padding-left: 15px;
     padding-right: 15px;
     padding: 10px;
@@ -261,7 +261,7 @@ textarea::placeholder {
 
 .btn-submit {
     color: #ffffff;
-    background-color: #3f8e00;
+    background-color: #357700;
     padding-left: 15px;
     padding-right: 15px;
     padding: 10px;
@@ -469,7 +469,7 @@ footer {
     color: #62ba1b;
 }
 
-h2, h3, p, li {
+h2, h3, p, li, blockquote {
     word-break: break-word;
 }
 @media screen and (min-width: 660px) {
