@@ -129,8 +129,9 @@ h1 {
 .sop-box h2 {
     margin: auto;
     font-size: 18px;
-    color: #080808;
+    color: #ffffff;
     font-family: "IBM Plex Mono";
+    text-decoration: underline;
 }
 
 cite {
@@ -150,7 +151,7 @@ cite {
 }
 
 .subtitle {
-    color: #bcbcbc;
+    color: #595959;
     font-family: "Raleway", Arial, sans-serif;;
     font-size: 13px;
 }
@@ -184,7 +185,7 @@ cite {
 .project-card p {
     font-size: 16px;
     font-family: "Raleway", Arial, sans-serif;;
-    color: #bcbcbc;
+    color: #595959;
 }
 
 .btn-secondary {
