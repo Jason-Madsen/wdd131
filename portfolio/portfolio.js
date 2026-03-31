@@ -201,7 +201,7 @@ function homeProjectTemplate(project) {
                 loading="lazy">
             </picture>
             <p>${displayDesc}</p>
-            <a href="projects.html" target=_"blank" class="btn-secondary">Project Description ></a>
+            <a href="projects.html" target="_blank" class="btn-secondary">Project Description ></a>
         </article>`;
 }
 
