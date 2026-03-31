@@ -1,7 +1,6 @@
 
 body {
     margin: auto;
-    /* max-width: 1200px; */
     width: 100%;
     background-color: black;
 }
@@ -69,7 +68,7 @@ h1 {
 .bio {
     list-style: none;
     color: #bcbcbc;
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     font-size: 14px;
     margin-bottom: 30px;
 }
@@ -119,7 +118,7 @@ h1 {
     border: #1B1B1B solid 2px;
     margin: auto;
     color: #ffffff;
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     font-size: 13px;
 
 }
@@ -149,7 +148,7 @@ cite {
 
 .subtitle {
     color: #bcbcbc;
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     font-size: 13px;
 }
 
@@ -181,7 +180,7 @@ cite {
 
 .project-card p {
     font-size: 16px;
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     color: #bcbcbc;
 }
 
@@ -224,7 +223,7 @@ form {
 label {
     color: #ffffff;
     text-align: left;
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     font-size: 14px;
     margin-bottom: 3px;
     width: 80%;
@@ -240,7 +239,7 @@ input {
 
 input::placeholder {
     color: #757575;
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     font-size: 12px;
 }
 
@@ -253,7 +252,7 @@ textarea {
 
 textarea::placeholder {
     color: #757575;
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     font-size: 12px;
 }
 
@@ -331,6 +330,7 @@ footer {
     border: 2px solid #62ba1b;
     width: 90%;
     max-width: 1200px;
+    min-height: 800px;
     margin: auto;
     background-color: #080808;
     display: flex;
@@ -365,7 +365,7 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 13px;
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     width: 80%;
     max-width: 800px;
 }
@@ -387,7 +387,7 @@ footer {
 }
 
 .projects-lus ul li {
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     text-align: left;
 }
 
@@ -406,7 +406,7 @@ footer {
     text-decoration: underline;
 }
 .projects-envs li {
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     text-align: left;
 }
 
@@ -418,7 +418,7 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;;
     width: 80%;
     max-width: 800px;
 }
