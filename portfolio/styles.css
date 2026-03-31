@@ -284,6 +284,7 @@ footer {
 
 #projects-main {
     background-color: #ffffff;
+    min-height: 100vh;
     padding-bottom: 20px;
 }
 
