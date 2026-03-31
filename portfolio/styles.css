@@ -453,6 +453,7 @@ footer {
 .image-gallery img {
     width: 100%;
     max-width: 1200px;
+    height: auto;
     border: 1px solid #62ba1b;
     align-self: center;
 }

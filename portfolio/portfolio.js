@@ -101,7 +101,7 @@ function projectTemplate(project) {
                     <img src="${img.urlSmall}" 
                     alt="${img.caption || project.title}" 
                     loading="lazy"
-                    width="600" height="338">>
+                    width="1200" height="603">>
                 </picture>
             </div>`).join('') 
         : "";
