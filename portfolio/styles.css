@@ -443,8 +443,16 @@ footer {
     text-align: center;
 }
 
-.image-gallery img {
+.image-gallery picture {
+    align-self: center;
     width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-gallery img {
+    width: 100%;
     max-width: 1200px;
     border: 1px solid #62ba1b;
     align-self: center;

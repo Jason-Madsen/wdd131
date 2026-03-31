@@ -43,10 +43,10 @@ const myProjects = [
         environments: ["Windows 11 Pro"],
         walkthrough: "To ensure industry-standard protection, this vault implements a 'Security Trinity' that handles data with zero-knowledge principles. SecureString prevents sensitive data from being stored in plain text within the system memory (RAM), protecting against memory-scraping attacks. PBKDF2 Key Stretching utilizes 100,000 iterations to transform the master password into a high-entropy encryption key, making brute-force attacks computationally unfeasible. SHA-256 hashing employs the modern SHA-256 cryptographic engine as the mixing algorithm for key derivation, ensuring the vault meets current global security standards.",
         images: [
-            { url: "images/Script1.png", caption: "" },
-            { url: "images/Script2.png", caption: "" },
-            { url: "images/Script3.png", caption: "" },
-            { url: "images/PowershellManagerView.png", caption: "PowerShell Manager View:" }
+            { url: "images/Script1.webp", urlSmall: "images/Script1-sm.webp", caption: "Script Part 1" },
+            { url: "images/Script2.webp", urlSmall: "images/Script2-sm.webp", caption: "Script Part 2" },
+            { url: "images/Script3.webp", urlSmall: "images/Script3-sm.webp", caption: "Script Part 3" },
+            { url: "images/PowershellManagerView.webp", urlSmall: "images/PowershellManagerView-sm.webp", caption: "PowerShell Manager View:" }
         ]
     },
     {
@@ -58,10 +58,10 @@ const myProjects = [
         environments: ["Linux Zorin OS Lite"],
         walkthrough: "Configure the Pi-hole as the primary DNS server on the router. All DNS queries from devices on the network are then sent to the Pi-hole. If a query is for a known ad-serving or tracking domain, the Pi-hole blocks it at the network level before it ever reaches the device.",
         images: [
-            { url: "images/Pi-HoleInstall.png", caption: "Pi-Hole Install / Status / IP Verification:" },
-            { url: "images/Static_IP_Configuration.png", caption: "Static IP Configuration:" },
-            { url: "images/DNS_Server_Configuration.png", caption: "WAN DNS Configuration:" },
-            { url: "images/Pi-Hole_Dashboard.png", caption: "Pi-Hole Ad-Blocker Dashboard:" }
+            { url: "images/Pi-HoleInstall.webp", urlSmall: "images/Pi-HoleInstall-sm.webp", caption: "Pi-Hole Install / Status / IP Verification:" },
+            { url: "images/Static_IP_Configuration.webp", urlSmall: "images/Static_IP_Configuration-sm.webp", caption: "Static IP Configuration:" },
+            { url: "images/DNS_Server_Configuration.webp", urlSmall: "images/DNS_Server_Configuration-sm.webp", caption: "WAN DNS Configuration:" },
+            { url: "images/Pi-Hole_Dashboard.webp", urlSmall: "images/Pi-Hole_Dashboard-sm.webp", caption: "Pi-Hole Ad-Blocker Dashboard:" }
         ]
     },
     { 
@@ -96,7 +96,13 @@ function projectTemplate(project) {
         ? project.images.map(img => `
             <div class="image-gallery">
                 <h5>${img.caption}</h5>
-                <img src="${img.url}" alt="${img.caption || project.title}">
+                <picture>
+                    <source media="(min-width: 660px)" srcset="${img.url}">
+                    <img src="${img.urlSmall}" 
+                    alt="${img.caption || project.title}" 
+                    loading="lazy"
+                    width="600" height="338">>
+                </picture>
             </div>`).join('') 
         : "";
 
@@ -180,13 +186,20 @@ function init() {
 init();
 
 function homeProjectTemplate(project) {
-    const firstImage = project.images && project.images.length > 0 ? project.images[0].url : 'images/placeholder.png';
+    const firstImage = project.images && project.images.length > 0 ? project.images[0].urlSmall : 'images/placeholder.webp';
     const displayDesc = project.shortDesc ? project.shortDesc : "Project details coming soon.";
+
+    const largeImage = project.images && project.images.length > 0 ? project.images[0].url : 'images/placeholder.webp';
 
     return `
         <article class="project-card">
             <h3>${project.title}</h3>
-            <img src="${firstImage}" alt="${project.title}">
+            <picture>
+                <source media="(min-width: 660px)" srcset="${largeImage}">
+                <img src="${firstImage}" 
+                alt="${project.title}" 
+                loading="lazy">
+            </picture>
             <p>${displayDesc}</p>
             <a href="projects.html" target=_"blank" class="btn-secondary">Project Description ></a>
         </article>`;
