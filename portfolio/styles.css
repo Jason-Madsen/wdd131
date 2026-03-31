@@ -436,7 +436,7 @@ footer {
     flex-direction: column;
 }
 
-.image-gallery h5 {
+.image-gallery h4 {
     color: #ffffff;
     font-family: "IBM Plex Mono";
     align-self: center;
